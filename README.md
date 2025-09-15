@@ -40,22 +40,9 @@ To check the script is working as intended, you can run `LAMPSEQ.sh` on the `/te
 The relevant `fastq` files can be found in `/test_data/00_raw_data/`. To analyse the `/test_data/`, 
 run the following: `LAMPSEQ.sh --indir test_data`. Once the analysis is complete, cross check that the 
 output files located in `/test_data/05_results/` match those found in 
-`/test_data/06_test_data_answers/`.
+`/test_data/06_test_data_answers/`. 
+
+For the source of reference sequences and LAMP primer sequences, see Supplementary Table S1 and S2 of our paper.
 
 # DEPENDENCIES
-<table> <thead> <tr class="header"> <th>Package</th> <th>Version</th> </tr> </thead> <tbody> <tr 
-class="odd"> <td>python</td> <td>3.13</td> </tr> <tr class="even"> <td>biopython</td> <td>1.85</td> 
-</tr> <tr class="odd"> <td>multiqc</td> <td>1.28</td> </tr> <tr class="even"> <td>fastqc</td> 
-<td>0.12.1</td> </tr> <tr class="odd"> <td>bowtie2</td> <td>2.5.4</td> </tr> <tr class="even"> 
-<td>samtools</td> <td>1.21</td> </tr> <tr class="odd"> <td>r-base</td> <td>4.4.3</td> </tr> <tr 
-class="even"> <td>r-tidyverse</td> <td>2.0.0</td> </tr> <tr class="odd"> <td>r-dplyr</td> 
-<td>1.1.4</td> </tr> <tr class="even"> <td>r-here</td> <td>1.0.1</td> </tr> <tr class="odd"> 
-<td>bioconductor-rsamtools</td> <td>2.22.0</td> </tr> <tr class="even"> <td>r-markdown</td> 
-<td>2.29</td> </tr> <tr class="odd"> <td>r-viridis</td> <td>0.6.2</td> </tr> <tr class="even"> 
-<td>r-knitr</td> <td>1.43</td> </tr> <tr class="odd"> <td>r-forcats</td> <td>1.0.0</td> </tr> <tr 
-class="even"> <td>r-flextable</td> <td>0.7.5</td> </tr> <tr class="odd"> <td>r-readr</td> 
-<td>2.1.4</td> </tr> <tr class="even"> <td>r-ggplot2</td> <td>3.4.3</td> </tr> <tr class="odd"> 
-<td>r-scales</td> <td>1.2.1</td> </tr> <tr class="even"> <td>r-tibble</td> <td>3.2.1</td> </tr> <tr 
-class="odd"> <td>r-stringr</td> <td>1.5.0</td> </tr> <tr class="even"> <td>r-officer</td> 
-<td>0.4.14</td> </tr> <tr class="odd"> <td>r-patchwork</td> <td>1.1.2</td> </tr> <tr class="even"> 
-<td>r-ggtext</td> <td>0.1.3</td> </tr> </tbody> </table>
+For dependencies see '/scripts/lampseq_dependencies.tsv'.
