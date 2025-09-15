@@ -21,10 +21,10 @@ Don’t forget to activate the conda env before running the LAMPSEQ script: `con
 LAMPSEQ takes input `fastq` files and performs quality control, LAMP amplicon trimming, alignment, and 
 species identification, and outputs the relevant results which can be found in `/indir/05_results/` 
 including:
- (a) `indir_multiqc.html`: quality control run summary from `MultiQC`;
- (b) `indir_species_calls.csv`: csv file containing `barcode`, `species_ID` and `reads` which can be used 
+- `indir_multiqc.html`: quality control run summary from `MultiQC`;
+- `indir_species_calls.csv`: csv file containing `barcode`, `species_ID` and `reads` which can be used 
 for user-defined plotting or further analysis;
- (c) `LAMPSEQ_indir_run_summary.pdf`: a run summary pdf file including a run overview, per barcode plots, and summary table. 
+- `LAMPSEQ_indir_run_summary.pdf`: a run summary pdf file including a run overview, per barcode plots, and summary table. 
 
 To run the script: 
 - Follow the installation instructions
