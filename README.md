@@ -61,4 +61,4 @@ For dependencies see `/LAMPSEQ/scripts/lampseq_dependencies.tsv`.
 
 
 ## CONTACT
-To contact the authors about this code or customising this code for other LAMP primer targets, **please email Olivia Yugovich** at olivia.yugovich@gmail.com
+To contact the authors about this code or customising for other LAMP primer targets, **please email Olivia Yugovich** at olivia.yugovich@gmail.com
