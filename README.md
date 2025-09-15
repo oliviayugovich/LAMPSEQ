@@ -2,10 +2,9 @@
 <h3 align="center">A command-line analysis tool for species identification using  LAMP 
 sequencing data</h3>
 
-This tool has been developed by Olivia Yugovich and Shane Sturrock as detailed in the following paper: *currently under review*
 
 ## INSTALLATION
-Miniforge3 is recommended as this isn’t affected by the Anaconda licensing issues for commercial 
+**Miniforge3** is recommended as this isn’t affected by the Anaconda licensing issues for commercial 
 sites. A script is provided that will set up your miniforge3 environment if you haven’t already got 
 one. Just run the `./installers/install_miniforge3.sh` script and it will set up your environment. 
 Once it completes, close your current shell and open a fresh one so the conda command becomes 
@@ -16,10 +15,10 @@ can run `./installers/install_lampseq_env.sh` to create a conda env for the scri
 install making sure you have all the package versions as specified in this script or below under 
 `dependencies`. 
 
-Don’t forget to activate the conda env before running the LAMPSEQ script: `conda activate lampseq`.
+**Don’t forget to activate the conda env before running the LAMPSEQ script:** `conda activate lampseq`.
 
 ## SYNOPSIS
-LAMPSEQ takes input `fastq` files and performs quality control, LAMP amplicon trimming, alignment, and 
+**LAMPSEQ** takes input `fastq` files and performs quality control, LAMP amplicon trimming, alignment, and 
 species identification, and outputs the relevant results which can be found in `/indir/05_results/` 
 including:
 - `indir_multiqc.html`: quality control run summary from `MultiQC`;
@@ -53,5 +52,11 @@ For the source of reference sequences and LAMP primer sequences, see Supplementa
 ## DEPENDENCIES
 For dependencies see `/scripts/lampseq_dependencies.tsv`.
 
+## CITATION
+**This tool has been developed by Olivia Yugovich and Shane Sturock.**
+ If you use **LAMPSEQ** in your work, please cite the following manuscript:
+> Yugovich, O., & Sturrock, S. (2025). *LAMPSEQ: A command-line analysis tool for species identification using LAMP sequencing data*. Submitted and under review at *Forensic Science International: Genetics*.
+
+
 ## CONTACT
-To contact the authors about this code or customising this code for other LAMP primer targets, please email Olivia Yugovich at olivia.yugovich@gmail.com
+To contact the authors about this code or customising this code for other LAMP primer targets, **please email Olivia Yugovich** at olivia.yugovich@gmail.com
