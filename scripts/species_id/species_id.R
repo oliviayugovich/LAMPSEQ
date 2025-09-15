@@ -1,7 +1,7 @@
 # LAMPSEQ - An analysis tool for LAMP sequencing data
 
 # This file is part of LAMPSEQ.
-# Copyright (C) 2025 Olivia Yugovich and Shane Sturrock
+# Copyright (C) 2025 Olivia Yugovich
 #
 # LAMPSEQ is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 # LAMP Sequencing Bioinformatics Pipeline
-# Authors: O. Yugovich, S. Sturrock
+# Authors: O. Yugovich
 
 
 # DESCRIPTION:

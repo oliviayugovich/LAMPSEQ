@@ -6,14 +6,14 @@ sequencing data</h3>
 ## INSTALLATION
 **Miniforge3** is recommended as this isn’t affected by the Anaconda licensing issues for commercial 
 sites. A script is provided that will set up your miniforge3 environment if you haven’t already got 
-one. Just run the `./installers/install_miniforge3.sh` script and it will set up your environment. 
+one. Just run the `/LAMPSEQ/installers/install_miniforge3.sh` script and it will set up your environment. 
 Once it completes, close your current shell and open a fresh one so the conda command becomes 
 available. 
 
 If you have miniforge3 available already or you have run the included install script, you 
-can run `./installers/install_lampseq_env.sh` to create a conda env for the script to use or manually 
-install making sure you have all the package versions as specified in this script or below under 
-`dependencies`. 
+can run `/LAMPSEQ/installers/install_lampseq_env.sh` to create a conda env for the script to use or manually 
+install making sure you have all the package versions as specified in this script or as listed in
+`/LAMPSEQ/scripts/lampseq_dependencies.tsv`. 
 
 **Don’t forget to activate the conda env before running the LAMPSEQ script:** `conda activate lampseq`.
 
@@ -29,7 +29,7 @@ for user-defined plotting or further analysis;
 To run the script: 
 - Follow the installation instructions
 - Ensure basecalled and demultiplexed `fastq` files to be analysed are located in: `/indir/00_raw_data/`
-- Then run the following: `bash LAMPSEQ.sh –-indir [input directory]`
+- Then run the following: `LAMPSEQ.sh –-indir [input directory]`
 
 ## OPTIONS
 <table> <colgroup> <col style="width: 22%" /> <col style="width: 77%" /> </colgroup> <thead> <tr 
@@ -45,12 +45,12 @@ To check the script is working as intended, you can run `LAMPSEQ.sh` on the `/te
 The relevant `fastq` files can be found in `/test_data/00_raw_data/`. To analyse the `/test_data/`, 
 run the following: `LAMPSEQ.sh --indir test_data`. Once the analysis is complete, cross check that the 
 output files located in `/test_data/05_results/` match those found in 
-`/test_data/06_test_data_answers/`. 
+`/test_data/06_test_data_answers/`. A `/test_data/` clean up script has been provided to quickly clean up the `/test_data/` folder, to do this run the `/test_data/clean_test.sh` script. 
 
 For the source of reference sequences and LAMP primer sequences, see Supplementary Table S1 and S2 of the cited  paper.
 
 ## DEPENDENCIES
-For dependencies see `/scripts/lampseq_dependencies.tsv`.
+For dependencies see `/LAMPSEQ/scripts/lampseq_dependencies.tsv`.
 
 ## CITATION
 **This tool has been developed by Olivia Yugovich and Shane Sturrock.** If you use **LAMPSEQ** in your work, please cite the following manuscript:
