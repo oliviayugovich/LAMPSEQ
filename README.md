@@ -50,7 +50,7 @@ Once the analysis is complete, cross check that the output files located in `/te
 
 A `/test_data/` clean up script has been provided to quickly clean up the folder, to do this run the `/LAMPSEQ/test_data/clean_test.sh` script. 
 
-For the source of reference sequences and LAMP primer sequences, see **Supplementary Table S1 and S2** of the cited  paper.
+For the source of reference sequences and LAMP primer sequences used to generate the test data, see **Supplementary Table S1 and S2** of the cited  paper.
 
 ## DEPENDENCIES
 For dependencies see `/LAMPSEQ/scripts/lampseq_dependencies.tsv`.
