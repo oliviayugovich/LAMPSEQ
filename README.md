@@ -53,9 +53,10 @@ For the source of reference sequences and LAMP primer sequences, see Supplementa
 For dependencies see `/scripts/lampseq_dependencies.tsv`.
 
 ## CITATION
-**This tool has been developed by Olivia Yugovich and Shane Sturock.**
- If you use **LAMPSEQ** in your work, please cite the following manuscript:
-> Yugovich, O., & Sturrock, S. (2025). *LAMPSEQ: A command-line analysis tool for species identification using LAMP sequencing data*. Submitted and under review at *Forensic Science International: Genetics*.
+**This tool has been developed by Olivia Yugovich and Shane Sturrock.**
+
+If you use **LAMPSEQ** in your work, please cite the following manuscript:
+> Yugovich, O., Sturrock, S., & Harbison, SA. (2025). *LAMPSEQ: A command-line analysis tool for species identification using LAMP sequencing data*. Submitted and under review at *Forensic Science International: Genetics*.
 
 
 ## CONTACT
