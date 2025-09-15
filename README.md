@@ -43,11 +43,14 @@ debug flag for verbose output (default=false unless dryrun set)</td> </tr> <tr c
 ## TEST DATA
 To check the script is working as intended, you can run `LAMPSEQ.sh` on the `/test_data/` directory. 
 The relevant `fastq` files can be found in `/test_data/00_raw_data/`. To analyse the `/test_data/`, 
-run the following: `LAMPSEQ.sh --indir test_data`. Once the analysis is complete, cross check that the 
-output files located in `/test_data/05_results/` match those found in 
-`/test_data/06_test_data_answers/`. A `/test_data/` clean up script has been provided to quickly clean up the `/test_data/` folder, to do this run the `/LAMPSEQ/test_data/clean_test.sh` script. 
+run the following: `LAMPSEQ.sh --indir test_data`. 
 
-For the source of reference sequences and LAMP primer sequences, see Supplementary Table S1 and S2 of the cited  paper.
+Once the analysis is complete, cross check that the output files located in `/test_data/05_results/` match those found in 
+`/test_data/06_test_data_answers/`. 
+
+A `/test_data/` clean up script has been provided to quickly clean up the `/test_data/` folder, to do this run the `/LAMPSEQ/test_data/clean_test.sh` script. 
+
+For the source of reference sequences and LAMP primer sequences, see **Supplementary Table S1 and S2** of the cited  paper.
 
 ## DEPENDENCIES
 For dependencies see `/LAMPSEQ/scripts/lampseq_dependencies.tsv`.
