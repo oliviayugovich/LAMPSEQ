@@ -1,6 +1,6 @@
 <h1 align="center">🧬LAMPSEQ:</h1>
-<h2 align="center">A command-line analysis tool for species identification using  LAMP 
-sequencing data</h2>
+<h3 align="center">A command-line analysis tool for species identification using  LAMP 
+sequencing data</h3>
 
 This tool has been developed by Olivia Yugovich and Shane Sturrock as detailed in the following paper: *currently under review*
 
