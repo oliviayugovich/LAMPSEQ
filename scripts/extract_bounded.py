@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+# LAMP Sequencing Bioinformatics Pipeline
+# Author: S. Sturrock
+#
 # This file is part of LAMPSEQ.
 # Copyright (C) 2025 Shane Sturrock
 #
@@ -15,9 +18,7 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
-#
-# LAMP Sequencing Bioinformatics Pipeline
-# Author: S. Sturrock
+
 
 
 import sys, gzip, argparse
