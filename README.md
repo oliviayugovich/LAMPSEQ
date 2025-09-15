@@ -1,7 +1,7 @@
-<h1 align="center">🧬LAMPSEQ v1.1:</h1> <h1 align="center">A command-line analysis tool for LAMP 
+<h1 align="center">🧬LAMPSEQ:</h1> <h1 align="center">A command-line analysis tool for species identification using  LAMP 
 sequencing data</h1>
 
-# Paper citation: *(paper submitted to journal)*
+This tool has been developed by Olivia Yugovich and Shane Sturrock as detailed in the following paper citation: *currently under review*
 
 # INSTALLATION
 Miniforge3 is recommended as this isn’t affected by the Anaconda licensing issues for commercial 
