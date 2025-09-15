@@ -45,4 +45,4 @@ output files located in `/test_data/05_results/` match those found in
 For the source of reference sequences and LAMP primer sequences, see Supplementary Table S1 and S2 of our paper.
 
 # DEPENDENCIES
-For dependencies see '/scripts/lampseq_dependencies.tsv'.
+For dependencies see `/scripts/lampseq_dependencies.tsv`.
