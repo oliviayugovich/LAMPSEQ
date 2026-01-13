@@ -63,7 +63,7 @@ For dependencies see `/LAMPSEQ/scripts/lampseq_dependencies.tsv`.
 
 ## CITATION
 **This tool has been developed by Olivia Yugovich and Shane Sturrock.** If you use **LAMPSEQ** in your work, please cite the following manuscript:
-> Yugovich, O., Sturrock, S., Cave, V., & Harbison, S.A. (2025). *LAMPSEQ: Colorimetric LAMP and nanopore sequencing for rapid species identification in the illegal wildlife trade.* Submitted and under review at *Forensic Science International: Genetics*.
+> Yugovich, O., Sturrock, S., Cave, V., & Harbison, S. A. (2025). LAMPSEQ: Colorimetric LAMP and nanopore sequencing for rapid species identification in the illegal wildlife trade. _Forensic Science International: Genetics_, 103412.
 
 
 ## CONTACT
